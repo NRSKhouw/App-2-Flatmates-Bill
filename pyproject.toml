@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "app-2-flatmates-bill"
+version = "0.1.0"
+description = ""
+authors = ["ridwankhouw <nickr.setiawan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "app_2_flatmates_bill"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+certifi = "2020.12.5"
+chardet = "3.0.4"
+filestack-python = "3.2.1"
+fpdf = "1.7.2"
+idna = "2.10"
+requests = "2.23.0"
+trafaret = "2.0.2"
+urllib3 = "1.25.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
